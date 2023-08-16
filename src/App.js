@@ -11,7 +11,7 @@ function App() {
   const [includeSymbol,setIncludeSymbol]=useState(false);
 
   const handleGeneratePassword = (e)=>{
-    let characterList =''
+    let characterList =' '
     if(includeLowercase){
       characterList =characterList + lowerCaseLetter;
     }
